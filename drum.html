@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drum</title>
+
+  <link rel="icon" href="./icons/drum-set.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-100">
+  
+
+  <section class="select-none">
+    <div class="h-full -mt-8 w-full p-10 flex text-gray-800">
+      <ul class="sm:-mt-8 grid grid-cols-2 md:grid-cols44 lg:grid-cols-7 gap-2 md:gap-4 xl:gap-10 h-[70vh] my-auto w-full ">
+          
+        <li class="h-full flex items-center text-2xl  lg:text-4xl font-bold">
+            <div class=" -mt-5  -mb-5 h-[60%] lg:h-[30%] w-full">
+                <a id="w" onclick="play(id)" onmouseenter="playOnEnter(id)"             
+                class="flex items-center h-full justify-center bg-blue-300 cursor-pointer shadow-lg hover:shadow-2xl rounded-2xl bg-opacity-80 hover:bg-opacity-100">
+                  <img class="pr-4 py-3 size-32" src="./drum_img/tom1.png" alt="">
+                </a>
+                <p class="mt-5 lg:mt-2 text-center">
+                  W
+                </p>
+            </div>
+          </li>
+
+          <li class="h-full flex items-center text-2xl lg:text-4xl font-bold">
+            <div class=" -mt-5  -mb-5 h-[60%] lg:h-[30%] w-full">
+                <a id="a" onclick="play(id)" onmouseenter="playOnEnter(id)"             
+                class="flex items-center h-full justify-center bg-blue-300 cursor-pointer shadow-lg hover:shadow-2xl rounded-2xl bg-opacity-80 hover:bg-opacity-100">
+                  <img class="pl-4 pb-5" src="./drum_img/tom2.png" alt="">
+                </a>
+                <p class="mt-5 lg:mt-2 text-center">
+                  A
+                </p>
+            </div>
+          </li>
+
+          <li class="h-full flex items-center text-2xl lg:text-4xl font-bold">
+            <div class="  -mt-5  -mb-5 h-[60%] lg:h-[30%] w-full">
+                <a id="s" onclick="play(id)" onmouseenter="playOnEnter(id)"             
+                class="flex items-center h-full justify-center bg-blue-300 cursor-pointer shadow-lg hover:shadow-2xl rounded-2xl bg-opacity-80 hover:bg-opacity-100">
+                  <img class="py-12 px-4 size-52 lg:py-7" src="./drum_img/tom4.png" alt="">
+                </a>
+                <p class="mt-5 lg:mt-2 text-center">
+                  S
+                </p>
+            </div>
+          </li>
+
+          <li class="h-full flex items-center text-2xl lg:text-4xl font-bold">
+            <div class=" -mt-5  -mb-5 h-[60%]  lg:h-[30%] w-full">
+                <a id="d" onclick="play(id)" onmouseenter="playOnEnter(id)"             
+                class="flex items-center h-full justify-center bg-blue-300 cursor-pointer shadow-lg hover:shadow-2xl rounded-2xl bg-opacity-80 hover:bg-opacity-100">
+                  <img class="py-12 px-4 size-52 lg:py-7" src="./drum_img/tom4.png" alt="">
+                </a>
+                <p class="mt-5 lg:mt-2 text-center">
+                  D
+                </p>
+            </div>
+          </li>
+
+          <li class="h-full flex items-center text-2xl lg:text-4xl font-bold">
+            <div class=" -mt-5  -mb-5 h-[60%] lg:h-[30%] w-full">
+                <a id="j" onclick="play(id)" onmouseenter="playOnEnter(id)"             
+                class="flex items-center h-full justify-center bg-blue-300 cursor-pointer shadow-lg hover:shadow-2xl rounded-2xl bg-opacity-80 hover:bg-opacity-100">
+                  <img class="px-4 py-3" src="./drum_img/snare.png" alt="">
+                </a>
+                <p class="mt-5 lg:mt-2 text-center">
+                  J
+                </p>
+            </div>
+          </li>
+
+          <li class="h-full flex items-center text-2xl lg:text-4xl font-bold">
+            <div class=" -mt-5  -mb-5 h-[60%] lg:h-[30%] w-full">
+                <a id="k" onclick="play(id)" onmouseenter="playOnEnter(id)"             
+                class="flex items-center h-full justify-center bg-blue-300 cursor-pointer shadow-lg hover:shadow-2xl rounded-2xl bg-opacity-80 hover:bg-opacity-100">
+                  <img style="mix-blend-mode: multiply;" class="px-4 py-8" src="./drum_img/crash.jpg" alt="">
+                </a>
+                <p class="mt-5 lg:mt-2 text-center">
+                  K
+                </p>
+            </div>
+          </li>
+
+          <li class="h-full flex items-center text-2xl lg:text-4xl font-bold">
+            <div class=" -mt-5  -mb-5 h-[60%] lg:h-[30%] w-full">
+                <a id="l" onclick="play(id)" onmouseenter="playOnEnter(id)"             
+                class="flex items-center h-full justify-center bg-blue-300 cursor-pointer shadow-lg hover:shadow-2xl rounded-2xl bg-opacity-80 hover:bg-opacity-100">
+                  <img style="mix-blend-mode: multiply;" class="py-10 px-4 lg:py-3" src="./drum_img/kick.jpeg" alt="">
+                </a>
+                <p class="mt-5 lg:mt-2 text-center">
+                  L
+                </p>
+            </div>
+          </li>
+
+
+  </section>
+
+  <script src="drum.js"></script>
+</body>
+</html>

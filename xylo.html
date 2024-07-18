@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xylo</title>
+  <link rel="icon" href="./icons/xylophone.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-100">
+  
+  <section class="select-none">
+    <div class="h-screen w-full p-10 flex text-gray-800">
+      <ul class="grid grid-cols-8 gap-2 md:gap-4 xl:gap-10 h-[70vh] my-auto w-full ">
+          <li class="h-full flex items-center text-2xl lg:text-4xl font-bold">
+            <div class="h-[100%] w-full">
+                <a id="1" onclick="play(id)" onmouseenter="playOnEnter(id)"             
+                class="flex items-center h-full justify-center bg-red-500 cursor-pointer shadow-lg hover:shadow-2xl rounded-2xl bg-opacity-80 hover:bg-opacity-100">
+                  C
+                </a>
+                <p class="mt-2 text-center">
+                  1
+                </p>
+            </div>
+          </li>
+
+
+          <li class="h-full flex items-center text-2xl lg:text-4xl font-bold">
+            <div class="h-[92%] w-full">
+                <a id="2" onclick="play(id)" onmouseenter="playOnEnter(id)" 
+                class="flex items-center h-full justify-center bg-orange-500 cursor-pointer shadow-lg hover:shadow-2xl rounded-2xl bg-opacity-80 hover:bg-opacity-100">
+                  D
+                </a>
+                <p class="mt-2 text-center">
+                  2
+                </p>
+            </div>
+          </li>
+
+          <li class="h-full flex items-center text-2xl lg:text-4xl font-bold">
+            <div class="h-[84%] w-full">
+                <a id="3" onclick="play(id)" onmouseenter="playOnEnter(id)" 
+                class="flex items-center h-full justify-center bg-yellow-500 cursor-pointer shadow-lg hover:shadow-2xl rounded-2xl bg-opacity-80 hover:bg-opacity-100">
+                  E
+                </a>
+                <p class="mt-2 text-center">
+                  3
+                </p>
+            </div>
+          </li>
+
+          <li class="h-full flex items-center text-2xl lg:text-4xl font-bold">
+            <div class="h-[76%] w-full">
+                <a id="4" onclick="play(id)" onmouseenter="playOnEnter(id)" 
+                class="flex items-center h-full justify-center bg-green-500 cursor-pointer shadow-lg hover:shadow-2xl rounded-2xl bg-opacity-80 hover:bg-opacity-100">
+                  F
+                </a>
+                <p class="mt-2 text-center">
+                  4
+                </p>
+            </div>
+          </li>
+
+          <li class="h-full flex items-center text-2xl lg:text-4xl font-bold">
+            <div class="h-[68%] w-full">
+                <a id="5" onclick="play(id)" onmouseenter="playOnEnter(id)" 
+                class="flex items-center h-full justify-center bg-blue-500 cursor-pointer shadow-lg hover:shadow-2xl rounded-2xl bg-opacity-80 hover:bg-opacity-100">
+                  G
+                </a>
+                <p class="mt-2 text-center">
+                  5
+                </p>
+            </div>
+          </li>
+
+          <li class="h-full flex items-center text-2xl lg:text-4xl font-bold">
+            <div class="h-[60%] w-full">
+                <a id="6" onclick="play(id)" onmouseenter="playOnEnter(id)" 
+                class="flex items-center h-full justify-center bg-purple-500 cursor-pointer shadow-lg hover:shadow-2xl rounded-2xl bg-opacity-80 hover:bg-opacity-100">
+                  A
+                </a>
+                <p class="mt-2 text-center">
+                  6
+                </p>
+            </div>
+          </li>
+
+          <li class="h-full flex items-center text-2xl lg:text-4xl font-bold">
+            <div class="h-[52%] w-full">
+                <a id="7" onclick="play(id)" onmouseenter="playOnEnter(id)" 
+                class="flex items-center h-full justify-center bg-pink-500 cursor-pointer shadow-lg hover:shadow-2xl rounded-2xl bg-opacity-80 hover:bg-opacity-100">
+                  B
+                </a>
+                <p class="mt-2 text-center">
+                  7
+                </p>
+            </div>
+          </li>
+
+          <li class="h-full flex items-center text-2xl lg:text-4xl font-bold">
+            <div class="h-[44%] w-full">
+                <a id="8" onclick="play(id)" onmouseenter="playOnEnter(id)" 
+                class="flex items-center h-full justify-center bg-indigo-500 cursor-pointer shadow-lg hover:shadow-2xl rounded-2xl bg-opacity-80 hover:bg-opacity-100">
+                  C
+                </a>
+                <p class="mt-2 text-center">
+                  8
+                </p>
+            </div>
+          </li>
+
+          
+      </ul>
+    </div>
+  </section>
+
+  <script src="xylo.js"></script>
+</body>
+</html>
